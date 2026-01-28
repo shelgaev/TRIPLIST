@@ -1,8 +1,1 @@
-services:
-  - type: web
-    name: hiking-shopping-bot
-    runtime: python
-    envVars:
-      - key: PYTHON_VERSION
-        value: "3.11.9"
-    startCommand: python bot.py
+aiogram==3.13.1
